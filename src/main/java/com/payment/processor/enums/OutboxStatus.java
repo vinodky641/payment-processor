@@ -1,4 +1,4 @@
-package com.payment.processor.model;
+package com.payment.processor.enums;
 
 public enum OutboxStatus {
     PENDING,

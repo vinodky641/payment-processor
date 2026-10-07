@@ -4,7 +4,7 @@ import com.payment.processor.dto.BalanceChange;
 import com.payment.processor.entity.Account;
 import com.payment.processor.entity.AccountBalanceChangedOutbox;
 import com.payment.processor.event.AccountBalanceChangedEvent;
-import com.payment.processor.model.OutboxStatus;
+import com.payment.processor.enums.OutboxStatus;
 import com.payment.processor.repository.AccountBalanceChangedOutboxRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.payment.processor.entity;
 
-import com.payment.processor.model.Role;
-import com.payment.processor.model.UserStatus;
+import com.payment.processor.enums.Role;
+import com.payment.processor.enums.UserStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import lombok.*;

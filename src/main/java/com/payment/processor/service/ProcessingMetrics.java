@@ -1,6 +1,6 @@
 package com.payment.processor.service;
 
-import com.payment.processor.model.PaymentStatus;
+import com.payment.processor.enums.PaymentStatus;
 import io.micrometer.core.instrument.Gauge;
 import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.stereotype.Component;

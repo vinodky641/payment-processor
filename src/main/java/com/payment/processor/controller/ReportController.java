@@ -4,7 +4,7 @@ import com.payment.processor.dto.MetricsSummary;
 import com.payment.processor.dto.PaymentOutcomeResponse;
 import com.payment.processor.dto.ReportSummary;
 import com.payment.processor.entity.PaymentOutcome;
-import com.payment.processor.model.PaymentStatus;
+import com.payment.processor.enums.PaymentStatus;
 import com.payment.processor.repository.PaymentOutcomeRepository;
 import com.payment.processor.service.ProcessingMetrics;
 import lombok.RequiredArgsConstructor;

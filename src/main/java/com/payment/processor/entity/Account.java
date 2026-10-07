@@ -2,8 +2,8 @@ package com.payment.processor.entity;
 
 import com.payment.processor.dto.BalanceChange;
 import com.payment.processor.event.AccountUpdatedEvent;
-import com.payment.processor.model.AccountStatus;
-import com.payment.processor.model.AccountType;
+import com.payment.processor.enums.AccountStatus;
+import com.payment.processor.enums.AccountType;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;

@@ -3,7 +3,7 @@ package com.payment.processor.service;
 import com.payment.processor.entity.PaymentOutcome;
 import com.payment.processor.entity.PaymentOutcomeOutbox;
 import com.payment.processor.event.PaymentOutcomeEvent;
-import com.payment.processor.model.OutboxStatus;
+import com.payment.processor.enums.OutboxStatus;
 import com.payment.processor.repository.PaymentOutcomeOutboxRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

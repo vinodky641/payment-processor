@@ -1,6 +1,6 @@
 package com.payment.processor.event;
 
-import com.payment.processor.model.PaymentStatus;
+import com.payment.processor.enums.PaymentStatus;
 
 import java.math.BigDecimal;
 import java.time.Instant;

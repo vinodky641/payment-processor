@@ -1,6 +1,6 @@
 package com.payment.processor.entity;
 
-import com.payment.processor.model.OutboxStatus;
+import com.payment.processor.enums.OutboxStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,6 +1,6 @@
 package com.payment.processor.entity;
 
-import com.payment.processor.model.PaymentStatus;
+import com.payment.processor.enums.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

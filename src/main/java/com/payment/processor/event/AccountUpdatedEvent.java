@@ -1,7 +1,7 @@
 package com.payment.processor.event;
 
-import com.payment.processor.model.AccountStatus;
-import com.payment.processor.model.AccountType;
+import com.payment.processor.enums.AccountStatus;
+import com.payment.processor.enums.AccountType;
 
 import java.time.Instant;
 import java.util.UUID;
